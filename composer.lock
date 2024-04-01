@@ -4,8 +4,70 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d40fe3bb65785d4e72a4621456946959",
+    "content-hash": "37dc8e798337b9e3bcdb4507f4bd157b",
     "packages": [
+        {
+            "name": "abraham/twitteroauth",
+            "version": "6.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/abraham/twitteroauth.git",
+                "reference": "20efddf17cd5105dfbf19282048432aa28bc414c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/abraham/twitteroauth/zipball/20efddf17cd5105dfbf19282048432aa28bc414c",
+                "reference": "20efddf17cd5105dfbf19282048432aa28bc414c",
+                "shasum": ""
+            },
+            "require": {
+                "composer/ca-bundle": "^1.2",
+                "ext-curl": "*",
+                "php": "^8.0 || ^8.1"
+            },
+            "require-dev": {
+                "php-vcr/php-vcr": "^1",
+                "php-vcr/phpunit-testlistener-vcr": "dev-php8",
+                "phpmd/phpmd": "^2",
+                "phpunit/phpunit": "^9",
+                "rector/rector": "^0.15.7",
+                "squizlabs/php_codesniffer": "^3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Abraham\\TwitterOAuth\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Abraham Williams",
+                    "email": "abraham@abrah.am",
+                    "homepage": "https://abrah.am",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The most popular PHP library for use with the Twitter OAuth REST API.",
+            "homepage": "https://twitteroauth.com",
+            "keywords": [
+                "Twitter API",
+                "Twitter oAuth",
+                "api",
+                "oauth",
+                "rest",
+                "social",
+                "twitter"
+            ],
+            "support": {
+                "issues": "https://github.com/abraham/twitteroauth/issues",
+                "source": "https://github.com/abraham/twitteroauth"
+            },
+            "time": "2023-08-08T03:20:20+00:00"
+        },
         {
             "name": "brick/math",
             "version": "0.11.0",
@@ -60,6 +122,82 @@
                 }
             ],
             "time": "2023-01-15T23:15:59+00:00"
+        },
+        {
+            "name": "composer/ca-bundle",
+            "version": "1.3.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/ca-bundle.git",
+                "reference": "76e46335014860eec1aa5a724799a00a2e47cc85"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/76e46335014860eec1aa5a724799a00a2e47cc85",
+                "reference": "76e46335014860eec1aa5a724799a00a2e47cc85",
+                "shasum": ""
+            },
+            "require": {
+                "ext-openssl": "*",
+                "ext-pcre": "*",
+                "php": "^5.3.2 || ^7.0 || ^8.0"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^0.12.55",
+                "psr/log": "^1.0",
+                "symfony/phpunit-bridge": "^4.2 || ^5",
+                "symfony/process": "^2.5 || ^3.0 || ^4.0 || ^5.0 || ^6.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\CaBundle\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "Lets you find a path to the system CA bundle, and includes a fallback to the Mozilla CA bundle.",
+            "keywords": [
+                "cabundle",
+                "cacert",
+                "certificate",
+                "ssl",
+                "tls"
+            ],
+            "support": {
+                "irc": "irc://irc.freenode.org/composer",
+                "issues": "https://github.com/composer/ca-bundle/issues",
+                "source": "https://github.com/composer/ca-bundle/tree/1.3.7"
+            },
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2023-08-30T09:31:38+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -569,6 +707,62 @@
                 }
             ],
             "time": "2023-08-27T10:19:19+00:00"
+        },
+        {
+            "name": "hborras/twitter-php-ads-sdk",
+            "version": "V11.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hborras/twitter-php-ads-sdk.git",
+                "reference": "60c02b82ee7d84d173c3bf71c85eb93838c16310"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hborras/twitter-php-ads-sdk/zipball/60c02b82ee7d84d173c3bf71c85eb93838c16310",
+                "reference": "60c02b82ee7d84d173c3bf71c85eb93838c16310",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": "^7.3 || ^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Hborras\\TwitterAdsSDK\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hector Borras",
+                    "email": "hborrasaleixandre@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A Twitter supported and maintained Ads API SDK for PHP",
+            "keywords": [
+                "Twitter API",
+                "Twitter oAuth",
+                "ads",
+                "api",
+                "oauth",
+                "rest",
+                "social",
+                "twitter"
+            ],
+            "support": {
+                "issues": "https://github.com/hborras/twitter-php-ads-sdk/issues",
+                "source": "https://github.com/hborras/twitter-php-ads-sdk"
+            },
+            "time": "2022-10-28T11:41:14+00:00"
         },
         {
             "name": "illuminate/auth",
@@ -5334,62 +5528,6 @@
                 "source": "https://github.com/hamcrest/hamcrest-php/tree/v2.0.1"
             },
             "time": "2020-07-09T08:09:16+00:00"
-        },
-        {
-            "name": "hborras/twitter-php-ads-sdk",
-            "version": "V11.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/hborras/twitter-php-ads-sdk.git",
-                "reference": "60c02b82ee7d84d173c3bf71c85eb93838c16310"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/hborras/twitter-php-ads-sdk/zipball/60c02b82ee7d84d173c3bf71c85eb93838c16310",
-                "reference": "60c02b82ee7d84d173c3bf71c85eb93838c16310",
-                "shasum": ""
-            },
-            "require": {
-                "ext-curl": "*",
-                "ext-json": "*",
-                "php": "^7.3 || ^8.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^9"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Hborras\\TwitterAdsSDK\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Hector Borras",
-                    "email": "hborrasaleixandre@gmail.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "A Twitter supported and maintained Ads API SDK for PHP",
-            "keywords": [
-                "Twitter API",
-                "Twitter oAuth",
-                "ads",
-                "api",
-                "oauth",
-                "rest",
-                "social",
-                "twitter"
-            ],
-            "support": {
-                "issues": "https://github.com/hborras/twitter-php-ads-sdk/issues",
-                "source": "https://github.com/hborras/twitter-php-ads-sdk"
-            },
-            "time": "2022-10-28T11:41:14+00:00"
         },
         {
             "name": "mockery/mockery",
